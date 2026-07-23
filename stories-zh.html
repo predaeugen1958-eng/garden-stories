@@ -89,6 +89,12 @@
             border-bottom: 1px solid #f0e4d8;
             padding-bottom: 1.2rem;
         }
+        .story-list li.placeholder {
+            border-bottom: none;
+            opacity: 0.8;
+            font-style: italic;
+            color: #8a7564;
+        }
         .story-list a {
             text-decoration: none;
             color: #4d3b2e;
@@ -105,6 +111,9 @@
             color: #8a7564;
             margin-top: 0.3rem;
             line-height: 1.5;
+        }
+        .story-list .placeholder .desc {
+            margin-top: 0.2rem;
         }
         .footer {
             font-size: 0.85rem;
@@ -132,6 +141,7 @@
         <h1>故事</h1>
         <div class="sub">等待被阅读的小种子</div>
 
+        <!-- Age group 1 -->
         <h2 class="age-group">🌱 给小耳朵（2–4岁）</h2>
         <ul class="story-list">
             <li>
@@ -156,16 +166,23 @@
             </li>
         </ul>
 
-        <!-- 预留未来给较大孩子的故事 -->
-        <!--
+        <!-- Age group 2 -->
         <h2 class="age-group">🌿 给正在成长的心（4–6岁）</h2>
         <ul class="story-list">
-            <li>
-                <a href="#">—</a>
-                <div class="desc">一个新的故事将在这里生长。</div>
+            <li class="placeholder">
+                <span style="font-size: 1rem;">— 故事正在这里生长 —</span>
+                <div class="desc">新的故事正在扎根。等它们准备好了，就会在这里出现。</div>
             </li>
         </ul>
-        -->
+
+        <!-- Age group 3 -->
+        <h2 class="age-group">🌳 给好奇的心（6–8岁）</h2>
+        <ul class="story-list">
+            <li class="placeholder">
+                <span style="font-size: 1rem;">— 故事正在这里生长 —</span>
+                <div class="desc">这些故事还在酝酿中。它们很快会加入花园。</div>
+            </li>
+        </ul>
 
         <div class="footer">
             🌱 <span>更多故事正在慢慢生长</span>
