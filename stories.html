@@ -89,6 +89,12 @@
             border-bottom: 1px solid #f0e4d8;
             padding-bottom: 1.2rem;
         }
+        .story-list li.placeholder {
+            border-bottom: none;
+            opacity: 0.8;
+            font-style: italic;
+            color: #8a7564;
+        }
         .story-list a {
             text-decoration: none;
             color: #4d3b2e;
@@ -105,6 +111,9 @@
             color: #8a7564;
             margin-top: 0.3rem;
             line-height: 1.5;
+        }
+        .story-list .placeholder .desc {
+            margin-top: 0.2rem;
         }
         .footer {
             font-size: 0.85rem;
@@ -132,6 +141,7 @@
         <h1>Stories</h1>
         <div class="sub">little seeds waiting to be read</div>
 
+        <!-- Age group 1 -->
         <h2 class="age-group">🌱 For little ears (2–4 years)</h2>
         <ul class="story-list">
             <li>
@@ -156,16 +166,23 @@
             </li>
         </ul>
 
-        <!-- Future section for older children -->
-        <!--
+        <!-- Age group 2 -->
         <h2 class="age-group">🌿 For growing hearts (4–6 years)</h2>
         <ul class="story-list">
-            <li>
-                <a href="#">—</a>
-                <div class="desc">A new story will grow here.</div>
+            <li class="placeholder">
+                <span style="font-size: 1rem;">— stories are growing here —</span>
+                <div class="desc">New tales are taking root. They will appear when they are ready.</div>
             </li>
         </ul>
-        -->
+
+        <!-- Age group 3 -->
+        <h2 class="age-group">🌳 For curious minds (6–8 years)</h2>
+        <ul class="story-list">
+            <li class="placeholder">
+                <span style="font-size: 1rem;">— stories are growing here —</span>
+                <div class="desc">These stories are still dreaming. They will join the garden soon.</div>
+            </li>
+        </ul>
 
         <div class="footer">
             🌱 <span>more stories growing soon</span>
