@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>谜题 — 安静故事园</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Georgia', 'KaiTi', serif;
+            background: #faf0d7;
+            color: #3b2e26;
+            padding: 2rem 1.5rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .container {
+            max-width: 720px;
+            background: #fefaf0;
+            padding: 2.5rem 2rem;
+            border-radius: 48px;
+            box-shadow: 0 8px 32px rgba(0,0,0,0.04);
+            border: 1px solid #f0e4d8;
+            text-align: center;
+        }
+        .lang-switch {
+            text-align: right;
+            font-size: 0.9rem;
+            margin-bottom: 1rem;
+        }
+        .lang-switch a {
+            color: #8a7564;
+            text-decoration: none;
+            border-bottom: 1px solid transparent;
+            transition: border-color 0.2s;
+        }
+        .lang-switch a:hover {
+            border-color: #b5a08c;
+        }
+        .back {
+            display: inline-block;
+            margin-bottom: 1.5rem;
+            font-size: 0.9rem;
+            color: #8a7564;
+            text-decoration: none;
+            border-bottom: 1px solid transparent;
+            transition: border-color 0.2s;
+        }
+        .back:hover {
+            border-color: #b5a08c;
+        }
+        h1 {
+            font-size: 2.2rem;
+            font-weight: 300;
+            letter-spacing: 2px;
+            color: #3f2e22;
+            margin-bottom: 0.3rem;
+        }
+        .sub {
+            font-size: 1rem;
+            color: #8a7564;
+            letter-spacing: 1px;
+            margin-bottom: 2rem;
+            font-style: italic;
+        }
+        .puzzle-list {
+            list-style: none;
+            padding: 0;
+            text-align: left;
+            margin: 0 auto;
+            max-width: 500px;
+        }
+        .puzzle-list li {
+            margin-bottom: 1.5rem;
+            border-bottom: 1px solid #f0e4d8;
+            padding-bottom: 1.2rem;
+        }
+        .puzzle-list a {
+            text-decoration: none;
+            color: #4d3b2e;
+            font-size: 1.2rem;
+            font-weight: 400;
+            display: block;
+            transition: color 0.2s;
+        }
+        .puzzle-list a:hover {
+            color: #8a6f5a;
+        }
+        .puzzle-list .desc {
+            font-size: 0.95rem;
+            color: #8a7564;
+            margin-top: 0.3rem;
+            line-height: 1.5;
+        }
+        .footer {
+            font-size: 0.85rem;
+            color: #b5a08c;
+            border-top: 1px solid #ece0d4;
+            padding-top: 1.8rem;
+            margin-top: 2.2rem;
+            letter-spacing: 0.5px;
+        }
+        .footer span {
+            display: block;
+            margin-top: 0.3rem;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="lang-switch">
+            <a href="puzzles.html">English</a>
+        </div>
+
+        <a href="index-zh.html" class="back">← 回到花园</a>
+
+        <h1>🧩 谜题树林</h1>
+        <div class="sub">一个可以好奇的地方</div>
+
+        <ul class="puzzle-list">
+            <li>
+                <a href="the-bread-and-the-well-zh.html">面包与井</a>
+                <div class="desc">两位旅人将自己的面包与陌生人分享 — 一个关于公平的安静谜题就此展开。</div>
+            </li>
+            <li style="border-bottom: none; opacity: 0.8; font-style: italic; color: #8a7564;">
+                <span style="font-size: 1rem;">— 更多谜题正在生长 —</span>
+                <div class="desc">新的问题正在扎根。准备好后便会在这里出现。</div>
+            </li>
+        </ul>
+
+        <div class="footer">
+            🌱 <span>一个可以好奇的地方</span>
+        </div>
+    </div>
+</body>
+</html>
