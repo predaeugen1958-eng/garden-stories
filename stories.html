@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stories — Little Moon Tales</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Georgia', serif;
+            background: #faf0d7;
+            color: #3b2e26;
+            padding: 2rem 1.5rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .container {
+            max-width: 720px;
+            background: #fefaf0;
+            padding: 2.5rem 2rem;
+            border-radius: 48px;
+            box-shadow: 0 8px 32px rgba(0,0,0,0.04);
+            border: 1px solid #f0e4d8;
+            text-align: center;
+        }
+        .lang-switch {
+            text-align: right;
+            font-size: 0.9rem;
+            margin-bottom: 1rem;
+        }
+        .lang-switch a {
+            color: #8a7564;
+            text-decoration: none;
+            border-bottom: 1px solid transparent;
+            transition: border-color 0.2s;
+        }
+        .lang-switch a:hover {
+            border-color: #b5a08c;
+        }
+        .back {
+            display: inline-block;
+            margin-bottom: 1.5rem;
+            font-size: 0.9rem;
+            color: #8a7564;
+            text-decoration: none;
+            border-bottom: 1px solid transparent;
+            transition: border-color 0.2s;
+        }
+        .back:hover {
+            border-color: #b5a08c;
+        }
+        h1 {
+            font-size: 2.2rem;
+            font-weight: 300;
+            letter-spacing: 2px;
+            color: #3f2e22;
+            margin-bottom: 0.3rem;
+        }
+        .sub {
+            font-size: 1rem;
+            color: #8a7564;
+            letter-spacing: 1px;
+            margin-bottom: 2rem;
+            font-style: italic;
+        }
+        .age-group {
+            text-align: left;
+            font-weight: 300;
+            margin-top: 2rem;
+            margin-bottom: 0.5rem;
+            color: #5b4433;
+            font-size: 1.2rem;
+        }
+        .story-list {
+            list-style: none;
+            padding: 0;
+            text-align: left;
+            margin: 0 auto;
+            max-width: 500px;
+        }
+        .story-list li {
+            margin-bottom: 1.5rem;
+            border-bottom: 1px solid #f0e4d8;
+            padding-bottom: 1.2rem;
+        }
+        .story-list li.placeholder {
+            border-bottom: none;
+            opacity: 0.8;
+            font-style: italic;
+            color: #8a7564;
+        }
+        .story-list a {
+            text-decoration: none;
+            color: #4d3b2e;
+            font-size: 1.2rem;
+            font-weight: 400;
+            display: block;
+            transition: color 0.2s;
+        }
+        .story-list a:hover {
+            color: #8a6f5a;
+        }
+        .story-list .desc {
+            font-size: 0.95rem;
+            color: #8a7564;
+            margin-top: 0.3rem;
+            line-height: 1.5;
+        }
+        .story-list .placeholder .desc {
+            margin-top: 0.2rem;
+        }
+        .footer {
+            font-size: 0.85rem;
+            color: #b5a08c;
+            border-top: 1px solid #ece0d4;
+            padding-top: 1.8rem;
+            margin-top: 2.2rem;
+            letter-spacing: 0.5px;
+        }
+        .footer span {
+            display: block;
+            margin-top: 0.3rem;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="lang-switch">
+            <a href="stories-zh.html">中文版</a>
+        </div>
+
+        <a href="index.html" class="back">← back to the garden</a>
+
+        <h1>Stories</h1>
+        <div class="sub">little seeds waiting to be read</div>
+
+        <!-- Age group 1 -->
+        <h2 class="age-group">🌱 For Little Sprouts (2–5 years)</h2>
+        <ul class="story-list">
+            <li>
+                <a href="the-little-seed.html">The Little Seed Who Didn’t Know It Was a Tree</a>
+                <div class="desc">A tiny seed grows into something it never expected — and discovers it was always meant to be.</div>
+            </li>
+            <li>
+                <a href="the-cloud-that-wanted-to-stay.html">The Cloud That Wanted to Stay</a>
+                <div class="desc">A soft cloud learns that love can travel as rain, and that nothing is ever truly far away.</div>
+            </li>
+            <li>
+                <a href="the-leaf-that-took-a-nap.html">The Leaf That Took a Nap</a>
+                <div class="desc">A tired leaf falls to the ground and finds rest — and learns that resting is not the end.</div>
+            </li>
+            <li>
+                <a href="the-moons-visit-to-the-garden.html">The Moon’s Visit to the Garden</a>
+                <div class="desc">The moon sends a beam of light to visit the flowers, and the flowers whisper their secrets back.</div>
+            </li>
+        </ul>
+
+        <!-- Age group 2 -->
+        <h2 class="age-group">🌿 For Growing Hearts (5–8 years)</h2>
+        <ul class="story-list">
+            <li>
+                <a href="the-pebble-who-wanted-to-roll.html">The Pebble Who Wanted to Roll</a>
+                <div class="desc">A round pebble longs to move — and learns that even stillness has its own kind of journey.</div>
+            </li>
+            <li>
+                <a href="the-kite-that-wouldnt-let-go.html">The Kite That Wouldn’t Let Go</a>
+                <div class="desc">A young child makes a kite that does not want to come down — and learns that love can fly farther than we can see.</div>
+            </li>
+        </ul>
+
+        <!-- Age group 3 -->
+        <h2 class="age-group">🌳 For Curious Minds (8–11 years)</h2>
+        <ul class="story-list">
+            <li>
+                <a href="the-last-feather.html">The Last Feather</a>
+                <div class="desc">A young girl finds a silver feather and follows its quiet hum into the forest — where she discovers that some things are real, even when they are hidden.</div>
+            </li>
+        </ul>
+
+        <!-- Age group 4 -->
+        <h2 class="age-group">🌙 Moonlit Stories (11+)</h2>
+        <ul class="story-list">
+            <li>
+                <a href="the-moon-that-held-a-promise.html">The Moon That Held a Promise</a>
+                <div class="desc">A quiet tale from the Tang Dynasty — about a scholar, a moonlit woman, and a love that could not be touched, but could not be forgotten.</div>
+            </li>
+            <li class="placeholder">
+                <span style="font-size: 1rem;">— more stories are growing here —</span>
+                <div class="desc">New tales are taking root. They will appear when they are ready.</div>
+            </li>
+        </ul>
+
+        <div class="footer">
+    🌙 <span>© XiaoYue Tales 2026</span>
+    <span style="display: block; margin-top: 0.3rem; font-size: 0.8rem;">
+        <a href="terms.html" style="color: #b5a08c; text-decoration: none; border-bottom: 1px solid transparent; transition: border-color 0.2s;">Terms & Privacy</a>
+    </span>
+</div>
+    </div>
+</body>
+</html>
